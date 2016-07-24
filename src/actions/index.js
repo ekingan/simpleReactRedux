@@ -1,9 +1,11 @@
-export function selectBook(book) {
+// INDEX.JS ACTIONS
+
+export function selectReview(review) {
 	//selectBook is an ActionCreator, it needs to return an action
 	//an object with a type property
 	return {
-		type: 'BOOK_SELECTED',
-		payload: book
+		type: 'REVIEW_SELECTED',
+		payload: review
 	}
 
 }
